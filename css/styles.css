@@ -142,6 +142,27 @@ a {
     }
 }
 
-/*  */
+/* Icons */
+.icon {
+    width: 40px;
+    height: 40px;
+}
 
+.icon--primary {
+    fill: var(--root-primary);
+}
+
+.icon--secondary {
+    fill: var(--root-secondary);
+}
+
+.icon-container {
+    background: #f3f9fa;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
 /*  */
